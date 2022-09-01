@@ -1,8 +1,4 @@
 @charset "UTF-8";
-body {
-  background-color: black !important;
-}
-
 /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -10926,15 +10922,55 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.card {
-  -moz-columns: 10;
-       columns: 10;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  margin-bottom: 1rem;
-}/*# sourceMappingURL=styles.css.map */
+.bannerImg {
+  background-image: url("assets/images/BannerFondo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  width: 100vw;
+}
+@media (min-width: 992px) {
+  .bannerImg {
+    height: 30vh;
+  }
+}
+@media (min-width: 1200px) {
+  .bannerImg {
+    height: 35vh;
+  }
+}
+
+.logoFP {
+  height: 40px;
+  width: 40px;
+}
+@media (min-width: 768px) {
+  .logoFP {
+    height: 80px;
+    width: 80px;
+  }
+}
+@media (min-width: 992px) {
+  .logoFP {
+    height: 120px;
+    width: 120px;
+  }
+}
+@media (min-width: 1200px) {
+  .logoFP {
+    height: 160px;
+    width: 160px;
+  }
+}
+
+.nombrePerfil {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.etiquetaPerfil {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  font-style: italic;
+}/*# sourceMappingURL=banner.component.css.map */
