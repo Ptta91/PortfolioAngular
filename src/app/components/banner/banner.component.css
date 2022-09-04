@@ -10923,7 +10923,7 @@ textarea.form-control-lg {
   }
 }
 .bannerImg {
-  background-image: url("assets/images/BannerFondo.png");
+  background-image: url("/assets/images/BannerFondo.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 25vh;
@@ -10961,16 +10961,4 @@ textarea.form-control-lg {
     height: 160px;
     width: 160px;
   }
-}
-
-.nombrePerfil {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: xx-large;
-  font-weight: bolder;
-}
-
-.etiquetaPerfil {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: medium;
-  font-style: italic;
 }/*# sourceMappingURL=banner.component.css.map */
