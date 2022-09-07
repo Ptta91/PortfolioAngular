@@ -10941,24 +10941,24 @@ textarea.form-control-lg {
 }
 
 .logoFP {
-  height: 40px;
-  width: 40px;
+  height: 90px;
+  width: 90px;
 }
 @media (min-width: 768px) {
-  .logoFP {
-    height: 80px;
-    width: 80px;
-  }
-}
-@media (min-width: 992px) {
   .logoFP {
     height: 120px;
     width: 120px;
   }
 }
+@media (min-width: 992px) {
+  .logoFP {
+    height: 150px;
+    width: 150px;
+  }
+}
 @media (min-width: 1200px) {
   .logoFP {
-    height: 160px;
-    width: 160px;
+    height: 180px;
+    width: 180px;
   }
 }/*# sourceMappingURL=banner.component.css.map */

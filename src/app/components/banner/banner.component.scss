@@ -17,21 +17,21 @@
 }
 
 .logoFP {
-    height: 40px;
-    width: 40px;
+    height: 90px;
+    width: 90px;
 
     @include media-breakpoint-up(md) {
-        height: 80px;
-        width: 80px;
-    }
-
-    @include media-breakpoint-up(lg) {
         height: 120px;
         width: 120px;
     }
 
+    @include media-breakpoint-up(lg) {
+        height: 150px;
+        width: 150px;
+    }
+
     @include media-breakpoint-up(xl) {
-        height: 160px;
-        width: 160px;
+        height: 180px;
+        width: 180px;
     }
 }
