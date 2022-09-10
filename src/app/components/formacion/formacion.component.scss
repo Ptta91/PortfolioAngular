@@ -1,0 +1,21 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+.accordion-body ul li span {
+    width: 30%;
+}
+
+.accordion-sm {
+    display: none;
+
+    @include media-breakpoint-up(md) {
+        display: contents;
+    }
+}
+
+.accordion-mobile {
+    display: contents;
+
+    @include media-breakpoint-up(md) {
+        display: none;
+    }
+}

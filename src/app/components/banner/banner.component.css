@@ -10923,54 +10923,47 @@ textarea.form-control-lg {
   }
 }
 .bannerImg {
-  background-image: url("assets/images/BannerFondo.png");
+  background-image: url("/assets/images/BannerFondo.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 25vh;
+  height: 34vh;
   width: 100vw;
+}
+@media (min-width: 576px) {
+  .bannerImg {
+    height: 31vh;
+  }
 }
 @media (min-width: 992px) {
   .bannerImg {
-    height: 30vh;
+    height: 28vh;
   }
 }
 @media (min-width: 1200px) {
   .bannerImg {
-    height: 35vh;
+    height: 25vh;
   }
 }
 
 .logoFP {
-  height: 40px;
-  width: 40px;
+  height: 90px;
+  width: 90px;
 }
 @media (min-width: 768px) {
-  .logoFP {
-    height: 80px;
-    width: 80px;
-  }
-}
-@media (min-width: 992px) {
   .logoFP {
     height: 120px;
     width: 120px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .logoFP {
-    height: 160px;
-    width: 160px;
+    height: 150px;
+    width: 150px;
   }
 }
-
-.nombrePerfil {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: xx-large;
-  font-weight: bolder;
-}
-
-.etiquetaPerfil {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: medium;
-  font-style: italic;
+@media (min-width: 1200px) {
+  .logoFP {
+    height: 180px;
+    width: 180px;
+  }
 }/*# sourceMappingURL=banner.component.css.map */
