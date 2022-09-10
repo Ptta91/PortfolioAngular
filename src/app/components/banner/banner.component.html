@@ -7,13 +7,35 @@
                     <h1 class="text-dark display-2">Emanuel Panetta</h1>
                 </div>
                 <div class="row">
-                    <h4 style="font-style:italic; font-weight:lighter;">Desarrollador Web Full Stack Jr.</h4>
+                    <h4 class="mt-2" style="font-style:italic; font-weight:lighter;">Desarrollador Web Full Stack Jr.</h4>
                 </div>
                 <div class="row">
-                    <h5 class='text-muted' style="font-style:italic; font-weight:lighter;">
-                        Esquel, Chubut (Argentina) <small><a href="#">Contactarse</a></small></h5>
+                    <h5 class='text-muted mt-2' style="font-style:italic; font-weight:lighter;">
+                        Esquel, Chubut (Argentina) <small><a class="mt-2" data-bs-toggle="collapse"
+                                href="#collapseExample" role="button" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                Contactarse</a></small></h5>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<div class="collapse" id="collapseExample">
+    <div class="card" style="width: 90vw; margin-left: auto; margin-right: auto;">
+        <div class="card-body">
+            <div class="form">
+                <form class="form-floating">
+                    <input type="email" class="form-control" id="floatingInputValue" placeholder="nombre@ejemplo.com">
+                    <label for="floatingInputValue">Ingresa tu correo</label>
+                </form>
+                <div class="form-floating mt-2">
+                    <textarea class="form-control" placeholder="Deja tu mensaje aquí" id="floatingTextarea"
+                        style="height: 120px;"></textarea>
+                    <label for="floatingTextarea">mensaje</label>
+                </div>
+                <button class="btn btn-outline-dark btn-sm mt-2" type="submit">Enviar</button>
+            </div>
+        </div>
+    </div>
+</div>

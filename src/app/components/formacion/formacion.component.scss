@@ -1,13 +1,21 @@
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 
-.accordion-body ul li span:first-child {
+.accordion-body ul li span {
     width: 30%;
 }
 
-.accordion-body ul li span:nth-child(3) {
-    width: 30%;
+.accordion-sm {
+    display: none;
+
+    @include media-breakpoint-up(md) {
+        display: contents;
+    }
 }
 
-.accordion-body ul li span:last-child {
-    width: 30%;
+.accordion-mobile {
+    display: contents;
+
+    @include media-breakpoint-up(md) {
+        display: none;
+    }
 }

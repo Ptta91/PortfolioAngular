@@ -10926,17 +10926,22 @@ textarea.form-control-lg {
   background-image: url("/assets/images/BannerFondo.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 25vh;
+  height: 34vh;
   width: 100vw;
+}
+@media (min-width: 576px) {
+  .bannerImg {
+    height: 31vh;
+  }
 }
 @media (min-width: 992px) {
   .bannerImg {
-    height: 30vh;
+    height: 28vh;
   }
 }
 @media (min-width: 1200px) {
   .bannerImg {
-    height: 35vh;
+    height: 25vh;
   }
 }
 

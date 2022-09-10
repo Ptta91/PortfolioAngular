@@ -4,15 +4,19 @@
     background-image: url('/assets/images/BannerFondo.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 25vh;
+    height: 34vh;
     width: 100vw;
 
+    @include media-breakpoint-up(sm) {
+        height: 31vh;
+    }
+
     @include media-breakpoint-up(lg) {
-        height: 30vh;
+        height: 28vh;
     }
 
     @include media-breakpoint-up(xl) {
-        height: 35vh;
+        height: 25vh;
     }
 }
 
